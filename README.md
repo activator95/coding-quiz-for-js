@@ -1,0 +1,3 @@
+C:\Users\Justin\Pictures\Screenshots\Screenshot (81).png
+![Alt text](assets/Screenshot%20(81).png)
+first step was to make a quiz for js i really wanted to spend more time on this project to get the leader board and time to count down was my next plans to work on although i didnt get time i did get the quize to cycle the questions i put the questions in the quizz and i also got a timer set inside the quiz it just doesnt count down if you miss them i will be adding this later 

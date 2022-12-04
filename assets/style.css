@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* my background image so the page isnt just white and boring */
+  background-image: url('./picture-for-quiz.avif');
+}
+html {
+  font-size: 70%;
+  color: white;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.section--main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+
+ 
+}
+
+#quiz--box {
+  width: 75rem;
+  
+ 
+}
+
+.centerbox {
+  display: flex;
+  flex-direction: column;
+}
+
+#quiz--box--data {
+  box-shadow: 5rem 5rem 5rem hsla(6%, 2%, 8%, 3%);
+  border: 1px solid rgba(0, 1, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  font-size: 2.4rem;
+  border-radius: 9px 9px 0px 0px;
+}
+#quiz--box--data label {
+  line-height: 2;
+}
+/* I LOVE PINK PINK PINK PINK */
+button {
+  background-color: #ea249e;
+  border: 0px solid white;
+  color: white;
+  height: 5rem;
+  font-size: 2.4rem;
+  font-weight: 720;
+  border-radius: 2px 0px 10px 9px;
+  cursor: pointer;
+}
+/* hover so my button changes so its easier to track the mouse clicks  */
+button:hover {
+  background-color: #8b39ef;
+}
+
+label input {
+  cursor: pointer;
+  margin-right: 1rem;
+}
+/* this changes text for after the game is over to show how many you got right */
+.progressbar {
+  height: 1.5rem;
+  width: 25rem;
+  border-radius: 100rem;
+  border: 2px solid black;
+}
+.results h3 {
+  margin: 1rem;
+}
+.results h2 {
+  font-size: 7.2rem;
+  margin: 1rem;
+}
+.progressbar p {
+  margin: 0;
+  background-color: #3acf2f;
+  width: 0rem;
+  height: 1.5rem;
+  border-radius: 100rem;
+}
+
+.results {
+  justify-content: center;
+  align-items: center;
+}
+
+.hidden {
+  display: none;
+}
+/* more pink pink pink */
+header {
+  text-align: center;
+  padding: 1rem;
+  font-size: 4.8rem;
+  background-color: #ff00c3;
+  color: rgb(238, 230, 230);
+  font-weight: 700;
+}
+header img {
+  height: 4.8rem;
+}
+
+@media only screen and (max-width: 37.5rem) {
+  html {
+    font-size: 60%;
+    font-family: "Inter", sans-serif;
+  }
+  button {
+    background-color: #ff00bb;
+    border: 0px solid rgb(230, 219, 219);
+    color: white;
+    height: 5rem;
+    font-size: 3.4rem;
+    font-weight: 700;
+    border-radius: 0px 0px 9px 9px;
+    cursor: pointer;
+    margin: 0;
+  }
+  #quiz--box--data {
+    box-shadow: 5rem 5rem 5rem hsla(0, 0%, 50%, 0.3);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    margin: 0;
+    font-size: 3.4rem;
+    border-radius: 7px 9px 2px 0px;
+  }
+  .centerbox {
+    display: flex;
+    flex-direction: column;
+    
+  }
+}
+@media only screen and (max-width: 25rem) {
+  html {
+    font-size: 45%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  body {
+    overflow-y: hidden;
+  }
+  /* this is to style the button and again pink */
+  button {
+    background-color: #ff00ff;
+    border: 0px solid white;
+    color: white;
+    height: 7rem;
+    font-size: 2.4rem;
+    font-weight: 700;
+    border-radius: 0px 0px 9px 9px;
+    cursor:crosshair;
+    margin: 0;
+  }
+}
